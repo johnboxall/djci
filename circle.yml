@@ -4,4 +4,4 @@ dependencies:
 
 test:
     override:
-        - python manage.py test djci
+        - python manage.py test djci && ./runner.sh
