@@ -21,4 +21,11 @@ def signup(request, template_name='signup.html'):
 
     context = {'form': form}
 
+    assert False
+
+
     return render(request, template_name, context)
+
+
+
+
