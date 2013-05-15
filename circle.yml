@@ -1,7 +1,3 @@
-machine:
-    environment:
-        DJANGO_SETTINGS_MODULE: djci.test
-
 dependencies:
     override:
         - pip install -r requirements.pip
